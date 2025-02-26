@@ -22,6 +22,7 @@ nav ul {
     display: flex;
     gap: 10px;
     align-items: baseline;
+    /* flex-wrap: wrap; */
 }
 
 nav a {
@@ -31,6 +32,8 @@ nav a {
 
 .logo-img {
     margin-right: auto;
+    /* flex-basis: 500px;
+    flex-grow: 1; */
 }
 
 .logo-img a{
@@ -45,10 +48,21 @@ nav a {
     gap: 50px;
     color: #f9f4f8;
     padding: 50px 0;
-    flex: 1;
     font-family: "Roboto", serif;
+    flex-wrap: wrap;
     
 }
+
+.hero-content{
+    align-self: center;
+    flex-basis: 400px;
+}
+
+.hero-img{
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
 
 .hero h1{
     font-size: 48px;
@@ -58,10 +72,6 @@ nav a {
 .hero p{
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.hero-content{
-    align-self: center;
 }
 
 .hero-content button{
