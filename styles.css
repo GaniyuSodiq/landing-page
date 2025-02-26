@@ -140,3 +140,32 @@ nav a {
     margin-top: 10px;
     font-weight: 900;
 }
+
+/* CTA SECTION */
+
+.cta-section{
+    padding: 50px 0;
+}
+
+.cta{
+    background-color: #3882f6;
+    color: #f9f4d8;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cta p{
+    font-weight: lighter;
+}
+
+.cta button{
+    padding: 3px 15px;
+    font-size: 12px;
+    color: #f9f4f8;
+    background-color: #3882f6;
+    border-color: #f9f4f8;
+    border-radius: 5px;
+}
