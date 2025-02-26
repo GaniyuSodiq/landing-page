@@ -169,3 +169,10 @@ nav a {
     border-color: #f9f4f8;
     border-radius: 5px;
 }
+
+.footer-section{
+    background-color: #1f2937;
+    text-align: center;
+    color: #f9f4f8;
+    padding: 30px 0;
+}
