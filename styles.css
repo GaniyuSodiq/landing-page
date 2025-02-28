@@ -178,6 +178,7 @@ nav a {
     background-color: #3882f6;
     border-color: #f9f4f8;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .footer-section{
